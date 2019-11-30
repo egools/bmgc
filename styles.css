@@ -1,0 +1,49 @@
+html {
+    background: linear-gradient(150deg, rgba(0, 24, 36, 0.7), rgba(2, 27, 18, 0.7));
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 800px;
+    max-width: 90vw;
+    border-radius: 10px;
+}
+
+.player {
+    padding: 5px;
+}
+
+.score {
+}
+
+#matchupTable input {
+    width: 65px;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    padding-right: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#rankTable td {
+    padding: 5px;
+    border: 1px solid white;
+}
+
+#rankTable th {
+    padding: 10px;
+    color: black;
+    background-color: white;
+}
+
+#matchupTable td:first-child{
+    text-align: right;
+}

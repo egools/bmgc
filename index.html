@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>BMGC Fantasy Football</title>
+    <meta name="description" content="BMGC Fantasy Football" />
+    <meta name="author" content="Gools" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=1.0" />
+    <table></table>
+  </head>
+
+  <body>
+    <table id="matchupTable">
+      <tbody>
+        <tr class="matchup-row">
+          <td width="40%" class="player">Cat</td>
+          <td width="10%" class="score">
+            <input
+              id="GoolsScore"
+              class="score-input"
+              type="number"
+              data-opp="SnowScore"
+              value="100.50"
+            />
+          </td>
+          <td width="10%" class="score">
+            <input
+              id="SnowScore"
+              class="score-input"
+              type="number"
+              data-opp="GoolsScore"
+              value="99.92"
+            />
+          </td>
+          <td width="40%" class="player">Topless Tapas</td>
+        </tr>
+        <tr class="matchup-row">
+          <td class="player">Beast From The East</td>
+          <td class="score">
+            <input
+              id="BeastScore"
+              class="score-input"
+              type="number"
+              data-opp="JeffScore"
+              value="84.96"
+            />
+          </td>
+          <td class="score">
+            <input
+              id="JeffScore"
+              class="score-input"
+              type="number"
+              data-opp="BeastScore"
+              value="106.74"
+            />
+          </td>
+          <td class="player">Dad Says What</td>
+        </tr>
+        <tr class="matchup-row">
+          <td class="player">Cage The Hampster</td>
+          <td class="score">
+            <input
+              id="DennyScore"
+              class="score-input"
+              type="number"
+              data-opp="SpenceScore"
+              value="98.69"
+            />
+          </td>
+          <td class="score">
+            <input
+              id="SpenceScore"
+              class="score-input"
+              type="number"
+              data-opp="DennyScore"
+              value="93.92"
+            />
+          </td>
+          <td class="player">Brown vs. The NFL</td>
+        </tr>
+        <tr class="matchup-row">
+          <td class="player">The good kind of RPO</td>
+          <td class="score">
+            <input
+              id="TyScore"
+              class="score-input"
+              type="number"
+              data-opp="JrScore"
+              value="99.66"
+            />
+          </td>
+          <td class="score">
+            <input
+              id="JrScore"
+              class="score-input"
+              type="number"
+              data-opp="TyScore"
+              value="101.46"
+            />
+          </td>
+          <td class="player">All Eyes On Me</td>
+        </tr>
+        <tr class="matchup-row">
+          <td class="player">NFC North</td>
+          <td class="score">
+            <input
+              id="ZachScore"
+              class="score-input"
+              type="number"
+              data-opp="BillyScore"
+              value="78.53"
+            />
+          </td>
+          <td class="score">
+            <input
+              id="BillyScore"
+              class="score-input"
+              type="number"
+              data-opp="ZachScore"
+              value="87.93"
+            />
+          </td>
+          <td class="player">Oh Biiillyyy</td>
+        </tr>
+        <tr class="matchup-row">
+          <td class="player">Fuck this team.</td>
+          <td class="score">
+            <input
+              id="KevScore"
+              class="score-input"
+              type="number"
+              data-opp="DanScore"
+              value="86.45"
+            />
+          </td>
+          <td class="score">
+            <input
+              id="DanScore"
+              class="score-input"
+              type="number"
+              data-opp="KevScore"
+              value="113.32"
+            />
+          </td>
+          <td class="player">RectumIHardly69edHer</td>
+        </tr>
+      </tbody>
+    </table>
+    <table id="rankTable">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Team</th>
+                <th>W-L-T</th>
+                <th>Points For</th>
+                <th>Points Againts</th>
+            </tr>
+        </thead>
+        <tbody id="standingsBody">
+
+        </tbody>
+    </table>
+    <script src="scripts.js"></script>
+    <script type="text/javascript">
+      (function() {
+        BuildRankTable();
+
+        document.querySelectorAll(".score-input").forEach(inp => {
+            inp.addEventListener("change", BuildRankTable);
+        });
+      })();
+    </script>
+  </body>
+</html>
