@@ -120,9 +120,16 @@ function BuildRankTable() {
       document.getElementById(teamInput.dataset.opp).value
     );
 
-    if (teamScore > oppScore) team.Wins++;
-    else if (oppScore > teamScore) team.Losses++;
-    else if (teamScore === oppScore) team.Ties++;
+    if (teamScore > oppScore) {
+      team.Wins++;
+      teamInput.style.border = "2px solid #33ff0077";
+    } else if (oppScore > teamScore) {
+      team.Losses++;
+      teamInput.style.border = "2px solid #de173877";
+    } else if (teamScore === oppScore) {
+      team.Ties++;
+      teamInput.style.border = "2px solid #cccccc77";
+    }
 
     team.PointsFor += teamScore;
     team.PointsAgainst += oppScore;

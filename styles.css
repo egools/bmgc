@@ -1,49 +1,85 @@
 html {
-    background: linear-gradient(150deg, rgba(0, 24, 36, 0.7), rgba(2, 27, 18, 0.7));
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    font-family: 'Roboto Mono', monospace;
-    color: white;
+  background: linear-gradient(150deg, rgba(0, 6, 10, 0.9), rgba(0, 5, 6, 0.9));
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto Mono", monospace;
+  color: white;
 }
 
 table {
-    margin: 20px auto;
-    border-collapse: collapse;
-    width: 800px;
-    max-width: 90vw;
-    border-radius: 10px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 800px;
+  max-width: 90vw;
+  border-radius: 10px;
 }
 
 .player {
-    padding: 5px;
+  padding: 5px;
 }
 
 .score {
 }
 
+#matchupTable td:first-child {
+  text-align: right;
+}
+
 #matchupTable input {
-    width: 65px;
-    border: none;
-    outline: none;
-    padding: 5px 20px;
-    padding-right: 5px;
-    border-radius: 5px;
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
+  width: 65px;
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  padding-right: 5px;
+  border-radius: 5px;
+  background-color: #fafafa;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
 }
 
 #rankTable td {
-    padding: 5px;
-    border: 1px solid white;
+  padding: 5px;
+  border: 1px solid #fafafa;
 }
 
 #rankTable th {
-    padding: 10px;
-    color: black;
-    background-color: white;
+  padding: 10px;
+  color: black;
+  background-color: #fafafa;
+  border: 1px solid #fafafa;
 }
 
-#matchupTable td:first-child{
-    text-align: right;
+.rank {
+  text-align: center;
 }
+
+#rankTable tr:nth-last-child(n + 7) .rank {
+  background: linear-gradient(
+    90deg,
+    #33ff0077 0%,
+    #33ff0077 7%,
+    #33ff0000 8%
+  ),
+  linear-gradient(
+    90deg,
+    white 0%,
+    white 7%,
+    transparent 8%
+  );
+}
+
+#rankTable tr:nth-child(n + 7) .rank {
+    background: linear-gradient(
+      90deg,
+      #de173877 0%,
+      #de173877 7%,
+      #de173800 8%
+    ),
+    linear-gradient(
+      90deg,
+      white 0%,
+      white 7%,
+      transparent 8%
+    );
+  }
