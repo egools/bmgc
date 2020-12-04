@@ -61,7 +61,7 @@ const initRankData = [
   },
   {
     Owner: "Ty", //6
-    TeamName: "Russel Stan",
+    TeamName: "Russel Wilson",
     Wins: 6,
     Losses: 6,
     Ties: 0,
