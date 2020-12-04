@@ -1,113 +1,197 @@
 const initRankData = [
   {
-    Owner: "Denny",
+    Owner: "Denny", //0
     TeamName: "Cage the Hampster",
-    Wins: 10,
-    Losses: 2,
-    Ties: 0,
-    PointsFor: 1135.52,
-    PointsAgainst: 1108.74
-  },
-  {
-    Owner: "Snow",
-    TeamName: "Topless Tapas",
-    Wins: 7,
-    Losses: 5,
-    Ties: 0,
-    PointsFor: 1113.96,
-    PointsAgainst: 1037.76
-  },
-  {
-    Owner: "Spence",
-    TeamName: "Brown vs. The NFL",
-    Wins: 6,
-    Losses: 6,
-    Ties: 0,
-    PointsFor: 1095.04,
-    PointsAgainst: 1052.74
-  },
-  {
-    Owner: "Gools",
-    TeamName: "Cat",
-    Wins: 5,
-    Losses: 7,
-    Ties: 0,
-    PointsFor: 1193.44,
-    PointsAgainst: 1210.9
-  },
-  {
-    Owner: "Kev",
-    TeamName: "Fuck this team.",
     Wins: 4,
     Losses: 8,
     Ties: 0,
-    PointsFor: 1025.1,
-    PointsAgainst: 1089.4
+    PointsFor: 1079.08,
+    PointsAgainst: 1208.66,
+    CurrentProjected: 96.24
   },
   {
-    Owner: "Zach",
-    TeamName: "NFC North",
-    Wins: 3,
-    Losses: 9,
-    Ties: 0,
-    PointsFor: 1059.96,
-    PointsAgainst: 1276.54
-  },
-  {
-    Owner: "Ty",
-    TeamName: "The good kind of RPO",
-    Wins: 8,
-    Losses: 4,
-    Ties: 0,
-    PointsFor: 1211.3,
-    PointsAgainst: 1095.84
-  },
-  {
-    Owner: "Dan",
-    TeamName: "RectumIHardly69edHer",
-    Wins: 7,
-    Losses: 5,
-    Ties: 0,
-    PointsFor: 1235.32,
-    PointsAgainst: 1190.1
-  },
-  {
-    Owner: "Jeff",
-    TeamName: "Dad Says What",
+    Owner: "Snow", //1
+    TeamName: "Leonard Fourbutts",
     Wins: 6,
     Losses: 6,
     Ties: 0,
-    PointsFor: 1278.16,
-    PointsAgainst: 1187.84
+    PointsFor: 1159.58,
+    PointsAgainst: 1172.70,
+    CurrentProjected: 99.01
   },
   {
-    Owner: "Jr",
-    TeamName: "All Eyez On Me",
-    Wins: 6,
-    Losses: 6,
-    Ties: 0,
-    PointsFor: 1236.88,
-    PointsAgainst: 1208.96
-  },
-  {
-    Owner: "Billy",
-    TeamName: "Oh Biiilllyyy",
+    Owner: "Spence", //2
+    TeamName: "Texas Pete",
     Wins: 5,
     Losses: 7,
     Ties: 0,
-    PointsFor: 1103.76,
-    PointsAgainst: 1198.48
+    PointsFor: 1060.88,
+    PointsAgainst: 1103.18,
+    CurrentProjected: 93.57
   },
   {
-    Owner: "Beast",
+    Owner: "Gools", //3
+    TeamName: "GA$EOUS KLAY",
+    Wins: 5,
+    Losses: 7,
+    Ties: 0,
+    PointsFor: 1067.98,
+    PointsAgainst: 1126.54,
+    CurrentProjected: 92.19
+  },
+  {
+    Owner: "Kev", //4
+    TeamName: "Srlslyfckthisteam.",
+    Wins: 9,
+    Losses: 3,
+    Ties: 0,
+    PointsFor: 1375.80,
+    PointsAgainst: 1093.40,
+    CurrentProjected: 98.14
+  },
+  {
+    Owner: "Zach", //5
+    TeamName: "We're on the board",
+    Wins: 6,
+    Losses: 6,
+    Ties: 0,
+    PointsFor: 1143.78,
+    PointsAgainst: 1169.42,
+    CurrentProjected: 99.01
+  },
+  {
+    Owner: "Ty", //6
+    TeamName: "Russel Stan",
+    Wins: 6,
+    Losses: 6,
+    Ties: 0,
+    PointsFor: 1167.50,
+    PointsAgainst: 1196.68,
+    CurrentProjected: 103.43
+  },
+  {
+    Owner: "Dan", //7
+    TeamName: "Suq Madiq",
+    Wins: 7,
+    Losses: 5,
+    Ties: 0,
+    PointsFor: 1187.90,
+    PointsAgainst: 1190.48,
+    CurrentProjected: 104.37
+  },
+  {
+    Owner: "Jeff", //8
+    TeamName: "Dad Says What",
+    Wins: 8,
+    Losses: 4,
+    Ties: 0,
+    PointsFor: 1223.62,
+    PointsAgainst: 1063.36,
+    CurrentProjected: 93.03
+  },
+  {
+    Owner: "Jr", //9
+    TeamName: "All Eyez On Me",
+    Wins: 5,
+    Losses: 7,
+    Ties: 0,
+    PointsFor: 1037.12,
+    PointsAgainst: 1090.30,
+    CurrentProjected: 69.94
+  },
+  {
+    Owner: "Billy", //10
+    TeamName: "I Don't Like Sand",
+    Wins: 6,
+    Losses: 6,
+    Ties: 0,
+    PointsFor: 1196.34,
+    PointsAgainst: 1160.88,
+    CurrentProjected: 90.00
+  },
+  {
+    Owner: "Beast", //11
     TeamName: "Beast From The East",
     Wins: 5,
     Losses: 7,
     Ties: 0,
-    PointsFor: 1062.52,
-    PointsAgainst: 1093.66
+    PointsFor: 1079.70,
+    PointsAgainst: 1203.68,
+    CurrentProjected: 87.73
   }
 ];
+
+const matchups = [
+  {
+    HomeTeam: 3,
+    AwayTeam: 1
+  },
+  {
+    HomeTeam: 11,
+    AwayTeam: 7
+  },
+  {
+    HomeTeam: 0,
+    AwayTeam: 4
+  },
+  {
+    HomeTeam: 6,
+    AwayTeam: 9
+  },
+  {
+    HomeTeam: 5,
+    AwayTeam: 10
+  },
+  {
+    HomeTeam: 8,
+    AwayTeam: 2
+  },
+];
+
+function InitMatchups()
+{
+  let rowTemplate = document.createElement("tr");
+  rowTemplate.classList.add("matchup-row");
+  let playerTemplate = document.createElement("td");
+  playerTemplate.classList.add("player");
+  let scoreTemplate = document.createElement("td");
+  playerTemplate.classList.add("score");
+  let inputTemplate = document.createElement("input");
+  inputTemplate.type = "number";
+  inputTemplate.classList.add("score-input");
+
+  let tbody = document.querySelector("#matchupTable tbody");
+  for (let i in matchups) {
+    let homeTeam = initRankData[matchups[i].HomeTeam];
+    let awayTeam = initRankData[matchups[i].AwayTeam];
+
+    let row = rowTemplate.cloneNode();
+    let homePlayer = playerTemplate.cloneNode();
+    homePlayer.innerText = homeTeam.TeamName;
+    let awayPlayer = playerTemplate.cloneNode();
+    awayPlayer.innerText = awayTeam.TeamName;
+
+    let homeScore = scoreTemplate.cloneNode();
+    let homeInput = inputTemplate.cloneNode();
+    homeInput.id = homeTeam.Owner + "Score";
+    homeInput.value = homeTeam.CurrentProjected;
+    homeInput.dataset.opp = awayTeam.Owner + "Score";
+    homeScore.appendChild(homeInput);
+
+    let awayScore = scoreTemplate.cloneNode();
+    let awayInput = inputTemplate.cloneNode();
+    awayInput.id = awayTeam.Owner + "Score";
+    awayInput.value = awayTeam.CurrentProjected;
+    awayInput.dataset.opp = homeTeam.Owner + "Score";
+    awayScore.appendChild(awayInput);
+
+    row.appendChild(homePlayer);
+    row.appendChild(homeScore);
+    row.appendChild(awayScore);
+    row.appendChild(awayPlayer);
+    tbody.appendChild(row);
+  }
+}
 
 function BuildRankTable() {
   var rankData = JSON.parse(JSON.stringify(initRankData));

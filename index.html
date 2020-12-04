@@ -15,139 +15,13 @@
 
   <body>
     <table id="matchupTable">
+      <colgroup>
+        <col width="40%">
+        <col width="10%">
+        <col width="10%">
+        <col width="40%">
+      </colgroup>
       <tbody>
-        <tr class="matchup-row">
-          <td width="40%" class="player">Cat</td>
-          <td width="10%" class="score">
-            <input
-              id="GoolsScore"
-              class="score-input"
-              type="number"
-              data-opp="SnowScore"
-              value="100.50"
-            />
-          </td>
-          <td width="10%" class="score">
-            <input
-              id="SnowScore"
-              class="score-input"
-              type="number"
-              data-opp="GoolsScore"
-              value="99.92"
-            />
-          </td>
-          <td width="40%" class="player">Topless Tapas</td>
-        </tr>
-        <tr class="matchup-row">
-          <td class="player">Beast From The East</td>
-          <td class="score">
-            <input
-              id="BeastScore"
-              class="score-input"
-              type="number"
-              data-opp="JeffScore"
-              value="84.96"
-            />
-          </td>
-          <td class="score">
-            <input
-              id="JeffScore"
-              class="score-input"
-              type="number"
-              data-opp="BeastScore"
-              value="106.74"
-            />
-          </td>
-          <td class="player">Dad Says What</td>
-        </tr>
-        <tr class="matchup-row">
-          <td class="player">Cage The Hampster</td>
-          <td class="score">
-            <input
-              id="DennyScore"
-              class="score-input"
-              type="number"
-              data-opp="SpenceScore"
-              value="98.69"
-            />
-          </td>
-          <td class="score">
-            <input
-              id="SpenceScore"
-              class="score-input"
-              type="number"
-              data-opp="DennyScore"
-              value="93.92"
-            />
-          </td>
-          <td class="player">Brown vs. The NFL</td>
-        </tr>
-        <tr class="matchup-row">
-          <td class="player">The good kind of RPO</td>
-          <td class="score">
-            <input
-              id="TyScore"
-              class="score-input"
-              type="number"
-              data-opp="JrScore"
-              value="99.66"
-            />
-          </td>
-          <td class="score">
-            <input
-              id="JrScore"
-              class="score-input"
-              type="number"
-              data-opp="TyScore"
-              value="101.46"
-            />
-          </td>
-          <td class="player">All Eyes On Me</td>
-        </tr>
-        <tr class="matchup-row">
-          <td class="player">NFC North</td>
-          <td class="score">
-            <input
-              id="ZachScore"
-              class="score-input"
-              type="number"
-              data-opp="BillyScore"
-              value="78.53"
-            />
-          </td>
-          <td class="score">
-            <input
-              id="BillyScore"
-              class="score-input"
-              type="number"
-              data-opp="ZachScore"
-              value="87.93"
-            />
-          </td>
-          <td class="player">Oh Biiillyyy</td>
-        </tr>
-        <tr class="matchup-row">
-          <td class="player">Fuck this team.</td>
-          <td class="score">
-            <input
-              id="KevScore"
-              class="score-input"
-              type="number"
-              data-opp="DanScore"
-              value="86.45"
-            />
-          </td>
-          <td class="score">
-            <input
-              id="DanScore"
-              class="score-input"
-              type="number"
-              data-opp="KevScore"
-              value="113.32"
-            />
-          </td>
-          <td class="player">RectumIHardly69edHer</td>
-        </tr>
       </tbody>
     </table>
     <table id="rankTable">
@@ -167,6 +41,7 @@
     <script src="scripts.js"></script>
     <script type="text/javascript">
       (function() {
+        InitMatchups();
         BuildRankTable();
 
         document.querySelectorAll(".score-input").forEach(inp => {
