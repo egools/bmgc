@@ -2,122 +2,122 @@ const initRankData = [
   {
     Owner: "Denny", //0
     TeamName: "Cage the Hampster",
-    Wins: 4,
-    Losses: 8,
+    Wins: 6,
+    Losses: 7,
     Ties: 0,
-    PointsFor: 1079.08,
-    PointsAgainst: 1208.66,
-    CurrentProjected: 96.24
+    PointsFor: 1334.78,
+    PointsAgainst: 1457.12,
+    CurrentProjected: 103.72
   },
   {
     Owner: "Snow", //1
-    TeamName: "Leonard Fourbutts",
+    TeamName: "4🤡1🏆",
     Wins: 6,
-    Losses: 6,
+    Losses: 7,
     Ties: 0,
-    PointsFor: 1159.58,
-    PointsAgainst: 1172.70,
-    CurrentProjected: 99.01
+    PointsFor: 1515.46,
+    PointsAgainst: 1588.58,
+    CurrentProjected: 116.26
   },
   {
     Owner: "Spence", //2
-    TeamName: "Texas Pete",
-    Wins: 5,
-    Losses: 7,
+    TeamName: "Who Talkin?",
+    Wins: 1,
+    Losses: 12,
     Ties: 0,
-    PointsFor: 1060.88,
-    PointsAgainst: 1103.18,
-    CurrentProjected: 93.57
+    PointsFor: 1422.24,
+    PointsAgainst: 1683.88,
+    CurrentProjected: 104.24
   },
   {
     Owner: "Gools", //3
-    TeamName: "GA$EOUS KLAY",
+    TeamName: "Human Clay",
     Wins: 5,
-    Losses: 7,
+    Losses: 8,
     Ties: 0,
-    PointsFor: 1067.98,
-    PointsAgainst: 1126.54,
-    CurrentProjected: 92.19
+    PointsFor: 1522.32,
+    PointsAgainst: 1554.02,
+    CurrentProjected: 110.6
   },
   {
     Owner: "Kev", //4
-    TeamName: "Srlslyfckthisteam.",
-    Wins: 9,
-    Losses: 3,
+    TeamName: "Titanic",
+    Wins: 6,
+    Losses: 7,
     Ties: 0,
-    PointsFor: 1375.80,
-    PointsAgainst: 1093.40,
-    CurrentProjected: 98.14
+    PointsFor: 1407.58,
+    PointsAgainst: 1422.58,
+    CurrentProjected: 113.94
   },
   {
     Owner: "Zach", //5
-    TeamName: "We're on the board",
-    Wins: 6,
-    Losses: 6,
+    TeamName: "Onward & Upward",
+    Wins: 10,
+    Losses: 3,
     Ties: 0,
-    PointsFor: 1143.78,
-    PointsAgainst: 1169.42,
-    CurrentProjected: 99.01
+    PointsFor: 1741.6,
+    PointsAgainst: 1505.38,
+    CurrentProjected: 111.79
   },
   {
     Owner: "Ty", //6
-    TeamName: "Russel Wilson",
+    TeamName: "Let's Go Goffing",
     Wins: 6,
-    Losses: 6,
+    Losses: 7,
     Ties: 0,
-    PointsFor: 1167.50,
-    PointsAgainst: 1196.68,
-    CurrentProjected: 103.43
+    PointsFor: 1397.48,
+    PointsAgainst: 1498.34,
+    CurrentProjected: 102.5
   },
   {
     Owner: "Dan", //7
-    TeamName: "Suq Madiq",
-    Wins: 7,
-    Losses: 5,
+    TeamName: "Siddeeq Shabazz",
+    Wins: 9,
+    Losses: 4,
     Ties: 0,
-    PointsFor: 1187.90,
-    PointsAgainst: 1190.48,
-    CurrentProjected: 104.37
+    PointsFor: 1437.44,
+    PointsAgainst: 1378.24,
+    CurrentProjected: 103.02
   },
   {
     Owner: "Jeff", //8
-    TeamName: "Dad Says What",
-    Wins: 8,
-    Losses: 4,
+    TeamName: "Austin Meadows",
+    Wins: 7,
+    Losses: 6,
     Ties: 0,
-    PointsFor: 1223.62,
-    PointsAgainst: 1063.36,
-    CurrentProjected: 93.03
+    PointsFor: 1330.52,
+    PointsAgainst: 1385.62,
+    CurrentProjected: 93.49
   },
   {
-    Owner: "Jr", //9
-    TeamName: "All Eyez On Me",
-    Wins: 5,
-    Losses: 7,
+    Owner: "Brandon", //9
+    TeamName: "CD's Nuts",
+    Wins: 7,
+    Losses: 6,
     Ties: 0,
-    PointsFor: 1037.12,
-    PointsAgainst: 1090.30,
-    CurrentProjected: 69.94
+    PointsFor: 1552.36,
+    PointsAgainst: 1395.96,
+    CurrentProjected: 113.12
   },
   {
     Owner: "Billy", //10
-    TeamName: "I Don't Like Sand",
+    TeamName: "Puka Troopa",
     Wins: 6,
-    Losses: 6,
+    Losses: 7,
     Ties: 0,
-    PointsFor: 1196.34,
-    PointsAgainst: 1160.88,
-    CurrentProjected: 90.00
+    PointsFor: 1553.28,
+    PointsAgainst: 1396.40,
+    CurrentProjected: 85.24
   },
   {
     Owner: "Beast", //11
     TeamName: "Beast From The East",
-    Wins: 5,
-    Losses: 7,
+    Wins: 9,
+    Losses: 4,
     Ties: 0,
-    PointsFor: 1079.70,
-    PointsAgainst: 1203.68,
-    CurrentProjected: 87.73
+    PointsFor: 1511.24,
+    PointsAgainst: 1460.18,
+    CurrentProjected: 105.78
   }
 ];
 
@@ -128,23 +128,23 @@ const matchups = [
   },
   {
     HomeTeam: 11,
-    AwayTeam: 7
+    AwayTeam: 8
   },
   {
     HomeTeam: 0,
-    AwayTeam: 4
+    AwayTeam: 2
   },
   {
     HomeTeam: 6,
-    AwayTeam: 9
-  },
-  {
-    HomeTeam: 5,
     AwayTeam: 10
   },
   {
-    HomeTeam: 8,
-    AwayTeam: 2
+    HomeTeam: 5,
+    AwayTeam: 9
+  },
+  {
+    HomeTeam: 4,
+    AwayTeam: 7
   },
 ];
 
