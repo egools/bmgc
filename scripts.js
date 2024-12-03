@@ -5,119 +5,119 @@ const initRankData = [
     Wins: 6,
     Losses: 7,
     Ties: 0,
-    PointsFor: 1334.78,
-    PointsAgainst: 1457.12,
-    CurrentProjected: 103.72
+    PointsFor: 1574.82,
+    PointsAgainst: 1479.04,
+    CurrentProjected: 64.49
   },
   {
     Owner: "Snow", //1
-    TeamName: "4🤡1🏆",
+    TeamName: "Legs and Eggs",
     Wins: 6,
     Losses: 7,
     Ties: 0,
-    PointsFor: 1515.46,
-    PointsAgainst: 1588.58,
-    CurrentProjected: 116.26
+    PointsFor: 1448.46,
+    PointsAgainst: 1529.90,
+    CurrentProjected: 96.8
   },
   {
     Owner: "Spence", //2
-    TeamName: "Who Talkin?",
-    Wins: 1,
-    Losses: 12,
+    TeamName: "Cucksgiving",
+    Wins: 4,
+    Losses: 9,
     Ties: 0,
-    PointsFor: 1422.24,
-    PointsAgainst: 1683.88,
-    CurrentProjected: 104.24
+    PointsFor: 1371.44,
+    PointsAgainst: 1603.12,
+    CurrentProjected: 105.1
   },
   {
     Owner: "Gools", //3
-    TeamName: "Human Clay",
+    TeamName: "Pre-Natal Drip",
     Wins: 5,
     Losses: 8,
     Ties: 0,
-    PointsFor: 1522.32,
-    PointsAgainst: 1554.02,
-    CurrentProjected: 110.6
+    PointsFor: 1552.66,
+    PointsAgainst: 1519.62,
+    CurrentProjected: 93.9
   },
   {
     Owner: "Kev", //4
-    TeamName: "Titanic",
-    Wins: 6,
-    Losses: 7,
+    TeamName: "WTF is going on",
+    Wins: 4,
+    Losses: 9,
     Ties: 0,
-    PointsFor: 1407.58,
-    PointsAgainst: 1422.58,
-    CurrentProjected: 113.94
+    PointsFor: 1371.66,
+    PointsAgainst: 1556.3,
+    CurrentProjected: 92.0
   },
   {
     Owner: "Zach", //5
-    TeamName: "Onward & Upward",
-    Wins: 10,
-    Losses: 3,
+    TeamName: "The Dollar Menu",
+    Wins: 5,
+    Losses: 8,
     Ties: 0,
     PointsFor: 1741.6,
     PointsAgainst: 1505.38,
-    CurrentProjected: 111.79
+    CurrentProjected: 68.96
   },
   {
     Owner: "Ty", //6
     TeamName: "Let's Go Goffing",
-    Wins: 6,
-    Losses: 7,
-    Ties: 0,
-    PointsFor: 1397.48,
-    PointsAgainst: 1498.34,
-    CurrentProjected: 102.5
-  },
-  {
-    Owner: "Dan", //7
-    TeamName: "Siddeeq Shabazz",
     Wins: 9,
     Losses: 4,
     Ties: 0,
-    PointsFor: 1437.44,
-    PointsAgainst: 1378.24,
-    CurrentProjected: 103.02
+    PointsFor: 1494.26,
+    PointsAgainst: 1354.76,
+    CurrentProjected: 88.34
+  },
+  {
+    Owner: "Dan", //7
+    TeamName: "Football Butt69",
+    Wins: 9,
+    Losses: 4,
+    Ties: 0,
+    PointsFor: 1525.32,
+    PointsAgainst: 1368.04,
+    CurrentProjected: 104.82
   },
   {
     Owner: "Jeff", //8
-    TeamName: "Austin Meadows",
-    Wins: 7,
-    Losses: 6,
+    TeamName: "Parker Meadows",
+    Wins: 9,
+    Losses: 4,
     Ties: 0,
-    PointsFor: 1330.52,
-    PointsAgainst: 1385.62,
-    CurrentProjected: 93.49
+    PointsFor: 1553.5,
+    PointsAgainst: 1371.68,
+    CurrentProjected: 87.42
   },
   {
     Owner: "Brandon", //9
-    TeamName: "CD's Nuts",
+    TeamName: "Jerking Goff",
     Wins: 7,
     Losses: 6,
     Ties: 0,
-    PointsFor: 1552.36,
-    PointsAgainst: 1395.96,
-    CurrentProjected: 113.12
+    PointsFor: 1555.8,
+    PointsAgainst: 1518.3,
+    CurrentProjected: 112.33
   },
   {
     Owner: "Billy", //10
-    TeamName: "Puka Troopa",
-    Wins: 6,
-    Losses: 7,
+    TeamName: "Sonic",
+    Wins: 9,
+    Losses: 4,
     Ties: 0,
-    PointsFor: 1553.28,
-    PointsAgainst: 1396.40,
-    CurrentProjected: 85.24
+    PointsFor: 1525.32,
+    PointsAgainst: 1368.04,
+    CurrentProjected: 75.76
   },
   {
     Owner: "Beast", //11
     TeamName: "Beast From The East",
-    Wins: 9,
-    Losses: 4,
+    Wins: 5,
+    Losses: 8,
     Ties: 0,
-    PointsFor: 1511.24,
-    PointsAgainst: 1460.18,
-    CurrentProjected: 105.78
+    PointsFor: 1565.00,
+    PointsAgainst: 1601.16,
+    CurrentProjected: 105.3
   }
 ];
 
@@ -128,22 +128,22 @@ const matchups = [
   },
   {
     HomeTeam: 11,
-    AwayTeam: 8
-  },
-  {
-    HomeTeam: 0,
     AwayTeam: 2
   },
   {
-    HomeTeam: 6,
-    AwayTeam: 10
-  },
-  {
-    HomeTeam: 5,
+    HomeTeam: 0,
     AwayTeam: 9
   },
   {
-    HomeTeam: 4,
+    HomeTeam: 6,
+    AwayTeam: 4
+  },
+  {
+    HomeTeam: 5,
+    AwayTeam: 10
+  },
+  {
+    HomeTeam: 8,
     AwayTeam: 7
   },
 ];
