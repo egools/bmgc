@@ -55,9 +55,9 @@ const initRankData = [
     Wins: 5,
     Losses: 8,
     Ties: 0,
-    PointsFor: 1741.6,
-    PointsAgainst: 1505.38,
-    CurrentProjected: 68.96
+    PointsFor: 1357.48,
+    PointsAgainst: 1485.6,
+    CurrentProjected: 69.01
   },
   {
     Owner: "Ty", //6
@@ -105,8 +105,8 @@ const initRankData = [
     Wins: 9,
     Losses: 4,
     Ties: 0,
-    PointsFor: 1525.32,
-    PointsAgainst: 1368.04,
+    PointsFor: 1499.32,
+    PointsAgainst: 1482.2,
     CurrentProjected: 75.76
   },
   {
